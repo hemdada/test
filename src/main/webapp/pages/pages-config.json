@@ -1,25 +1,49 @@
 [ {
   "name" : "Common",
-  "type" : "PARTIAL"
+  "type" : "PARTIAL",
+  "params" : [ ]
 }, {
   "name" : "Login",
-  "type" : "PAGE"
+  "type" : "PAGE",
+  "params" : [ ]
 }, {
   "name" : "Main",
-  "type" : "PAGE"
+  "type" : "PAGE",
+  "params" : [ ]
 }, {
   "name" : "footer",
-  "type" : "FOOTER"
+  "type" : "FOOTER",
+  "params" : [ ]
 }, {
   "name" : "header",
-  "type" : "HEADER"
+  "type" : "HEADER",
+  "params" : [ ]
+}, {
+  "name" : "kavya",
+  "type" : "PAGE",
+  "params" : [ ]
+}, {
+  "name" : "kruthi",
+  "type" : "PAGE",
+  "params" : [ ]
 }, {
   "name" : "leftnav",
-  "type" : "LEFTNAV"
+  "type" : "LEFTNAV",
+  "params" : [ ]
+}, {
+  "name" : "newPage",
+  "type" : "PAGE",
+  "params" : [ ]
 }, {
   "name" : "rightnav",
-  "type" : "RIGHTNAV"
+  "type" : "RIGHTNAV",
+  "params" : [ ]
+}, {
+  "name" : "sample",
+  "type" : "PAGE",
+  "params" : [ ]
 }, {
   "name" : "topnav",
-  "type" : "TOPNAV"
+  "type" : "TOPNAV",
+  "params" : [ ]
 } ]
