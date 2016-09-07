@@ -13,7 +13,14 @@
             </resource>
             <resource>
                 <filtering>true</filtering>
-                <directory>services/highscoredb/src</directory>
+                <directory>services/TTMyJavaService/src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+            <resource>
+                <filtering>true</filtering>
+                <directory>services/sushma/src</directory>
                 <excludes>
                     <exclude>**/*.java</exclude>
                 </excludes>
@@ -86,7 +93,8 @@
                         </goals>
                         <configuration>
                             <sources>
-                                <source>services/highscoredb/src</source>
+                                <source>services/TTMyJavaService/src</source>
+                                <source>services/sushma/src</source>
                             </sources>
                         </configuration>
                     </execution>

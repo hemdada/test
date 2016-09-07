@@ -8,6 +8,11 @@ import com.wavemaker.studio.common.wrapper.StringWrapper;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.http.MediaType;
 import org.springframework.beans.factory.annotation.Autowired;
+import com.wordnik.swagger.annotations.Api;
+import com.wordnik.swagger.annotations.ApiOperation;
+import com.wordnik.swagger.annotations.ApiParam;
+import com.wavemaker.tools.api.core.annotations.WMAccessVisibility;
+import com.wavemaker.tools.api.core.models.AccessSpecifier;
 
 @RestController
 @RequestMapping(value = "/tTMyJava")
@@ -17,6 +22,8 @@ public class TTMyJavaController {
     private TTMyJavaService ttMyJavaService;
 
     @RequestMapping(value = "/sampleJavaOperation", produces = "application/json", method = RequestMethod.GET)
+    @WMAccessVisibility(value = AccessSpecifier.APP_ONLY)
+    @ApiOperation(value = "")
     public StringWrapper sampleJavaOperation(@RequestParam(value = "name", required = false) String name, HttpServletRequest request) {
         return new StringWrapper(ttMyJavaService.sampleJavaOperation(name, request));
     }

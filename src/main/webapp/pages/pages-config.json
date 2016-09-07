@@ -35,6 +35,10 @@
   "type" : "PAGE",
   "params" : [ ]
 }, {
+  "name" : "popover",
+  "type" : "POPOVER",
+  "params" : [ ]
+}, {
   "name" : "rightnav",
   "type" : "RIGHTNAV",
   "params" : [ ]
